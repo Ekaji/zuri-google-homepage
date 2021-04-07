@@ -19,6 +19,10 @@ body, input, button {
     margin-right: 10px;
 }
 
+span > a {
+    color:#222;
+}
+
 .google-apps-button > svg{
     width: 25px;
 }
@@ -72,6 +76,10 @@ input#search {
     padding: 10px;
 }
 
+.btn > a{
+    color: #222;
+}
+
 .location{
     margin-left: 2rem;
 }
@@ -106,6 +114,10 @@ li{
     width: 100%;
     padding: 15px 0px;
     background: #f2f2f2;
+    color: #0000008A;
+}
+
+.links > ul > li > a{
     color: #0000008A;
 }
 
