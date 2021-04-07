@@ -1,0 +1,125 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-top{
+    display:flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin: 20px 0px;
+}
+
+.navbar-top > span {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.google-apps-button > svg{
+    width: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo {
+    width: 272px;
+}
+
+.search{
+    margin: 30px 0px;
+}
+
+input#search {
+    /* background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png'); */
+    background-image: url('./iconfinder_icon-ios7-search-strong_211817.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    width: 544px;
+    outline: none;
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.account{
+    font-size: 16px;
+    color: white;
+    background-color: #04549c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.account > p {
+        padding: 6px 9px;
+    /* margin: 5px 10px; */
+}
+
+.btn{
+    background-color: #f8f9fa;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.location{
+    margin-left: 2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links > ul {
+    display: inline-flex;
+    padding: 0px;
+    margin-left: 2rem;
+}
+
+.links > ul > li {
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navbar-bottom{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0px;
+    background: #f2f2f2;
+    color: #0000008A;
+}
+
+hr{
+    border-bottom: none;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.carbon{
+    width: 300px;
+    margin: auto 0px;
+}
+
+.carbon-img{
+    width: 12px;
+}
