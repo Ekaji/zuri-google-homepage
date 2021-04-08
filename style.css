@@ -6,6 +6,10 @@ body, input, button {
     margin: 0px;
     padding: 0px;
 }
+
+.container{
+    width: 100vw;
+}
 .navbar-top{
     display:flex;
     justify-content: flex-end;
@@ -38,11 +42,39 @@ span > a {
 }
 
 .search{
+    display: flex;
+    flex-shrink: 2;
     margin: 30px 0px;
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+    width: 544px;
+    height: 40px;
+
 }
 
+#search{
+    flex-shrink: 1;
+    width: 460px;
+    height: 40px;
+    /* border-radius: 20px; */
+    border: none;
+    outline: none;
+}
+
+.search-icon > svg{
+    width: 20px;
+    margin: 10px;
+}
+
+.mic-icon{
+    width: 20px;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+/* 
 input#search {
-    /* background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png'); */
+    background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
     background-image: url('./iconfinder_icon-ios7-search-strong_211817.png');
     background-size:contain;
     background-repeat: no-repeat;
@@ -52,7 +84,7 @@ input#search {
     border: 1px solid #C0C0C0;
     border-radius: 20px;
     height: 40px;
-}
+} */
 
 .account{
     font-size: 16px;
@@ -86,14 +118,33 @@ input#search {
 
 .links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
 
 .links > ul {
-    display: inline-flex;
+    display: flex;
     padding: 0px;
     margin-left: 2rem;
+}
+
+.reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    min-width: 70vw;
+}
+.reverse > ul {
+    display: flex;
+}
+.reverse > ul > li {
+    margin-right: 20px;
+    color: #0000008A;
+}
+
+.reverse > ul > li > a {
+    color: #0000008A;
 }
 
 .links > ul > li {
@@ -128,10 +179,26 @@ hr{
 }
 
 .carbon{
+    display: flex;
+    justify-self: center;
+    align-self: center;
     width: 300px;
-    margin: auto 0px;
 }
 
 .carbon-img{
     width: 12px;
 }
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 30vw;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px){
+    . {
+        justify-content: space-evenly;
+    }
+}
+
